@@ -12,12 +12,12 @@ const [activeNav, setActiveNav] = useState("#")
 
   return (
     <nav>
-     <a onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""} href="#"><BiHome/></a>
-     <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><FcAbout/></a>
-     <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><BiBookAlt/></a>
-     <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#about" ? "active" : ""}><MdDesignServices/></a>
-     <a href="#contact" onClick={() => setActiveNav("contact")} className={activeNav === "#contact" ? "active" : ""}><MdOutlineContactMail/></a>
-     <a href="#testimonials" onClick={() => setActiveNav("#testimonials")} className={activeNav === "#testimonials" ? "active" : ""}><MdRecommend/></a>
+     <a onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""} href="#">Home</a>
+     <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}>About</a>
+     <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}>Experience</a>
+     <a href="#portfolio" onClick={() => setActiveNav("#portfolio")} className={activeNav === "#about" ? "active" : ""}>Projects</a>
+     <a href="#contact" onClick={() => setActiveNav("contact")} className={activeNav === "#contact" ? "active" : ""}>Contact</a>
+     <a href="#testimonials" onClick={() => setActiveNav("#testimonials")} className={activeNav === "#testimonials" ? "active" : ""}>Recommendations</a>
     </nav>
   )
 }
