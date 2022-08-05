@@ -18,8 +18,9 @@ const Experience = () => {
               {Frontend.map((item) => {
                return(
                 <div>
-                  <BsPatchCheckFill/>
-                <div><h4 key={item.name}>{item.name}</h4></div>
+                  <div className="experience__details-div">
+                  <BsPatchCheckFill className="detail-icon"/>
+                <h4 key={item.name}>{item.name}</h4></div>
                 <small className="text-light">{item.experience}</small>
                 </div>
                ) 
@@ -36,8 +37,9 @@ const Experience = () => {
               {Backend.map((item) => {
                return(
                   <div>
-                    <BsPatchCheckFill/>
-                    <div><h4 key={item.name}>{item.name}</h4></div>
+                    <div className="experience__details-div">
+                    <BsPatchCheckFill className="detail-icon"/>
+                    <h4 key={item.name}>{item.name}</h4></div>
                     <small className="text-light">{item.experience}</small>
                   </div>
                ) 
