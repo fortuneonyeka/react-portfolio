@@ -16,6 +16,15 @@ nav {
   border-radius: 6px;
 }
 
+.nav-item-div {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.nav-item {
+  margin-top: 8px;
+}
+
 nav a {
   background: transparent;
   padding: 0.9rem;
