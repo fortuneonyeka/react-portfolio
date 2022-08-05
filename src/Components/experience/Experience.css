@@ -8,7 +8,8 @@
   background: var(--color-bg-variant);
 
   padding: 0.3rem 1.2rem;
-  /* padding: 0.5rem; */
+  -webkit-box-shadow: 0 0 10px transparent ;
+  box-shadow: 0 0 10px transparent;
   border: 1px solid transparent;
   border-radius: 2rem;
   transition: var(--transition);
@@ -37,4 +38,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+}
+
+.experience__details-div {
+  display: flex;
+  gap: .5rem;
+  /* margin-top: 16px; */
+  color: var(--color-primary);
+}
+
+.detail-icon {
+  margin-top: 6px;
+}
+
+.text-light {
+  margin-left: 2rem;
 }
