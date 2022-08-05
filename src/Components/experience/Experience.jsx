@@ -7,8 +7,7 @@ import Backend from "../../data/BackEndData"
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>My Tech And Soft Skills</h5>
-      <h2>My Technical Experience</h2>
+      <h2 className="myTech">My Technical Experience</h2>
 
       <div className="container experience__container">
         <div className="frontend__experience">
