@@ -16,7 +16,7 @@ const Recomendations = () => {
             <img src={recomendation.img} alt={recomendation.name} className="collegue__profile-image" />
           </div>
           <h3 className="collegue__name">{recomendation.name}</h3>
-          <h5 className="collegue__name">{recomendation.recomendation}</h5>
+          <h5 className="collegue__recomendation">{recomendation.recomendation}</h5>
           <a href={recomendation.linkedin} className="btn">linkedIn</a>
         </article>
           )
