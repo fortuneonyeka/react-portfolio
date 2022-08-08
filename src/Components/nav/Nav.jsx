@@ -40,6 +40,10 @@ const [activeNav, setActiveNav] = useState("#")
     <MdDesignServices className="nav-item"/>
     <h3 >Porfolio</h3>
     </div></a>
+  <a href="#recomendations" onClick={() => setActiveNav("#recomendations")} className={activeNav === "#recomendations" ? "active" : ""}><div className="nav-item-div">
+    <MdRecommend className="nav-item"/>
+    <h3 >Recomendations</h3>
+    </div></a>
   <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><div className="nav-item-div">
     <MdOutlineContactMail className="nav-item"/>
     <h3 >Contact</h3>
