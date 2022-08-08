@@ -5,18 +5,19 @@ import Projects from "../../data/Projects";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-   
       <h5>My Recent Projects</h5>
       <h2>Portfolio</h2>
-     
 
-      <div  className="container portfolio__container">
-      {Projects.map((project, index) => {
-        return (
-          
+      <div className="container portfolio__container">
+        {Projects.map((project, index) => {
+          return (
             <article className="portfolio__items">
               <div className="portfolio__item-image">
-                <img src={project.img} alt={project.name} className="project-img"/>
+                <img
+                  src={project.img}
+                  alt={project.name}
+                  className="project-img"
+                />
               </div>
               <h3>{project.name.toLocaleUpperCase()}</h3>
               <h5>{project.description}</h5>
@@ -31,10 +32,9 @@ const Portfolio = () => {
                 Live
               </a>
             </article>
-         
-        );
-      })}
-       </div>
+          );
+        })}
+      </div>
     </section>
   );
 };
