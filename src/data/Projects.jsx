@@ -1,4 +1,4 @@
-import fitApp from "../Assets/fit-app.png"
+import fitApp from "../Assets/everfit-app.png"
 import fortuneMart from "../Assets/fortune-mart.png"
 import calculatorApp from "../Assets/Math-Magician.png"
 import leaderboard from "../Assets/Leaderbord.png"
@@ -18,14 +18,14 @@ const Projects = [
     img: fortuneMart,
     live: "cheerful-kitsune-74eee2.netlify.app/",
     github: "https://github.com/fortuneonyeka/E-commerce-shop",
-    description:"This an ecommerce application where a user can view, save items in the cart and go ahead to checkout",
+    description:"This is an ecommerce application where a user can view, save items in the cart and go ahead to checkout",
   },
   {
     name: "React Calculator",
     img: calculatorApp,
     live: "https://61ae31cfd6fb4c7d7c03c5aa--focused-yonath-4fce09.netlify.app/",
     github: "https://github.com/fortuneonyeka/Maths-magicians",
-    description:"'Math magicians' is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.",
+    description:"'Math magicians' is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.",
   },
   {
     name: "LeaderBoard",
