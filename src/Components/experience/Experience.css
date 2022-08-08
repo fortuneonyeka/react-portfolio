@@ -32,16 +32,10 @@
   row-gap: 2rem;
 }
 
-.experience__details {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-}
-
 .experience__details-div {
   display: flex;
   gap: 1.4rem;
-  /* margin-top: 16px; */
+  margin-top: 16px;
   color: var(--color-primary);
 }
 

@@ -13,37 +13,37 @@ const Experience = () => {
         <div className="frontend__experience">
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            <article className="experience__details"> 
-              {Frontend.map((item) => {
+            
+              {Frontend.map((item, index) => {
                return(
-                <div>
-                  <div className="experience__details-div">
+                <article key={index} className="experience__details"> 
+                  <div key={index} className="experience__details-div">
                   <BsPatchCheckFill className="detail-icon"/>
                 <h4 key={item.name}>{item.name}</h4></div>
                 <small className="text-light">{item.experience}</small>
-                </div>
+                </article>
                ) 
               })}
               
               <small>{Frontend.experience}</small>
-            </article>
+            
           </div>
         </div>
         <div className="backend__experience">
           <h3>Backend Development</h3>
           <div className="experience__content">
-              <article className="experience__details">
+              
               {Backend.map((item) => {
                return(
-                  <div>
+                <article className="experience__details">
                     <div className="experience__details-div">
                     <BsPatchCheckFill className="detail-icon"/>
                     <h4 key={item.name}>{item.name}</h4></div>
                     <small className="text-light">{item.experience}</small>
-                  </div>
+                    </article>
                ) 
               })}
-              </article>
+              
           </div>
 
         </div>
