@@ -21,13 +21,13 @@ const Portfolio = () => {
               </div>
               <h3>{project.name.toLocaleUpperCase()}</h3>
               <h5>{project.description}</h5>
-              <a href={project.github} className="btn" target="_blank">
+              <a href={project.github} className="btn" target="_blank" rel="noreferrer">
                 GitHub
               </a>
               <a
                 href={project.live}
                 className="btn btn-primary"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 Live
               </a>

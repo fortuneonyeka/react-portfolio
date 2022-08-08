@@ -8,6 +8,7 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  padding-bottom: 3rem;
   
 }
 
@@ -32,8 +33,13 @@
   margin: 0.8rem auto 0;
 }
 
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background:var(--color-primary)
+}
+
 
 @media screen and (max-width: 1024px) {
+  
   .testimonials__container {
     width: 60%;
   }

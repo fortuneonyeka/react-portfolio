@@ -1,6 +1,8 @@
 import angel from "../Assets/angel.jpeg"
 import ortega from "../Assets/ortega.jpeg"
 
+
+
 const RecomendationsData = [
   {
     name: "Angel Diaz",

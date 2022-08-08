@@ -33,9 +33,9 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
               
-              {Backend.map((item) => {
+              {Backend.map((item, index) => {
                return(
-                <article className="experience__details">
+                <article key={index} className="experience__details">
                     <div className="experience__details-div">
                     <BsPatchCheckFill className="detail-icon"/>
                     <h4 key={item.name}>{item.name}</h4></div>
