@@ -14,7 +14,7 @@ const Recomendations = () => {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + "</span>";
+      return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   };
   return (
@@ -23,7 +23,7 @@ const Recomendations = () => {
       <h2>Recomendations</h2>
 
       <Swiper
-        className="container testimonials__container"
+        className="container testimonials__container mySwiper"
         
         pagination={pagination}
         modules={[Pagination]}
