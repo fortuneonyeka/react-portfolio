@@ -7,8 +7,7 @@ import "./About.css";
 
 const About = () => {
 
-  function getAge(dateString) 
-{
+  const getYearsOfExperience = () => {
     var today = new Date();
     var startYear = 2019;
     var currentYearsOfExperience = today.getFullYear() - startYear;
@@ -30,7 +29,7 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__icon" />
                 <h5>Experience</h5>
-                <small>{getAge()}+ Years Working</small>
+                <small>{getYearsOfExperience()}+ Years Working</small>
               </article>
 
               <article className="about__card">
