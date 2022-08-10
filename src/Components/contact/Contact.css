@@ -42,3 +42,45 @@
   margin-top: 0.7rem;
   
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  -webkit-box-shadow: 0 0 10px #4db5ff ;
+  box-shadow: 0 0 10px var(--color-primary);
+  color: var(--color-white);
+  font-size: 1.5rem;
+  resize: none;
+}
+
+
+/* MEDIS QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+  #contact {
+    margin-bottom: 500px;
+  }
+
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* SMALL DEVICES */
+
+@media screen and  (max-width: 600px) {
+ 
+
+  .container.contact__container {
+  width: var(--container-width-sm);
+    gap: 2rem;
+  }
+}
