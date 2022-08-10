@@ -71,6 +71,10 @@ header {
   header {
     height: 100vh;
   }
+
+  .scroll__down {
+    right: -4rem;
+  }
 }
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {

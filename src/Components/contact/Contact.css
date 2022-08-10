@@ -79,6 +79,10 @@ textarea {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .scroll__up {
+    right: -4rem;
+  }
 }
 
 /* SMALL DEVICES */

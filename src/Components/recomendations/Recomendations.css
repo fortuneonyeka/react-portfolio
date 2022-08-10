@@ -9,6 +9,7 @@
   border-radius: 2rem;
   user-select: none;
   padding-bottom: 2rem;
+  
 }
 
 .testimonial h3 {
@@ -26,14 +27,14 @@
 
 .collegue__recomendation {
   color: var(--color-light);
-  /* font-weight: 300px; */
+  font-weight: 300px;
   display: block;
   width: 80%;
   margin: auto;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
-  background: var(--color-primary);
+  background:var(--color-primary);
   width: 20px;
   height: 20px;
 }
@@ -45,9 +46,13 @@
   opacity: 1;
 }
 
+
 @media screen and (max-width: 1024px) {
+  
   .testimonials__container {
     width: 60%;
+  
+   
   }
   #recomendations {
     margin-top: 1100px;
@@ -64,6 +69,6 @@
   }
 
   .collegue__recomendation {
-    width: var(--container-width-sm);
+    width: 60%;
   }
 }
