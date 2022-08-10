@@ -4,6 +4,7 @@ import calculatorApp from "../Assets/Math-Magician.png"
 import leaderboard from "../Assets/Leaderbord.png"
 import dogBreeds from "../Assets/dog-breeds.png"
 import lifestyle from "../Assets/LifestyleArticle.png"
+import bookstore from "../Assets/bookstore.png"
 
 const Projects = [
   {
@@ -33,6 +34,13 @@ const Projects = [
     live: "https://fortuneonyeka.github.io/LeaderBoard-project/dist/",
     github: "https://github.com/fortuneonyeka/LeaderBoard-project",
     description:"The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service",
+  },
+  {
+    name: "BookStore",
+    img: bookstore,
+    live: "https://vibrant-aryabhata-aea940.netlify.app/",
+    github: "https://github.com/fortuneonyeka/bookstore",
+    description:"The Book store website application allows user to add, delete and display books and the percentage read. It is built using React/Redux and external API",
   },
   {
     name: "Dog Breeds",
