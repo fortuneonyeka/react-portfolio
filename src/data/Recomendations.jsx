@@ -21,7 +21,7 @@ const RecomendationsData = [
     name: "Julian",
     img: julian,
     linkedin: "https://www.linkedin.com/in/julian-carracedo/",
-    recomendation:"Fortunatus is a very mature, relentless and hard-working person. He won't give up and will always find a way to thrive even in the hardest of situations. In addition, his contagious optimism will keep any team strong enough to face the hardest challenges and happy enough to enjoy in the meantime.",
+    recomendation:"Fortunatus is a very mature, relentless and hard-working person. He won't give up and will always find a way to thrive even in the hardest of situations. In addition, his contagious optimism will keep any team strong enough to face the hardest challenges and happy enough to enjoy in the meantime. I would be very glad to work with Fortunarus again.",
   },
   
 ]

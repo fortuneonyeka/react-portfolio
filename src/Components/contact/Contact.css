@@ -13,7 +13,6 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  
 }
 
 .contact__option {
@@ -27,13 +26,13 @@
 
 .contact__option:hover {
   background: transparent;
-  -webkit-box-shadow: 0 0 10px #4db5ff ;
+  -webkit-box-shadow: 0 0 10px #4db5ff;
   box-shadow: 0 0 10px var(--color-primary);
 }
 
 .scroll__up {
   position: absolute;
-  right:  5rem;
+  right: 5rem;
   transform: rotate(90deg);
   font-weight: 500;
   font-size: 0.9;
@@ -49,7 +48,6 @@
   display: inline-block;
   font-size: 0.8rem;
   margin-top: 0.7rem;
-  
 }
 
 form {
@@ -58,23 +56,23 @@ form {
   gap: 1.2rem;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
-  -webkit-box-shadow: 0 0 10px #4db5ff ;
+  -webkit-box-shadow: 0 0 10px #4db5ff;
   box-shadow: 0 0 10px var(--color-primary);
   color: var(--color-white);
   font-size: 1.5rem;
   resize: none;
 }
 
-
 /* MEDIS QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
   #contact {
-    margin-bottom: 500px;
+    margin-bottom: 600px;
   }
 
   .container.contact__container {
@@ -85,11 +83,17 @@ input, textarea {
 
 /* SMALL DEVICES */
 
-@media screen and  (max-width: 600px) {
- 
+@media screen and (max-width: 600px) {
+  #contact {
+    margin-top: 20px;
+  }
 
   .container.contact__container {
-  width: var(--container-width-sm);
+    width: var(--container-width-sm);
     gap: 2rem;
+  }
+
+  .scroll__up {
+    display: none;
   }
 }

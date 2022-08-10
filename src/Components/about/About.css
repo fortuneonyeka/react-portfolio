@@ -5,13 +5,18 @@
 }
 
 .about__me {
-/* width: 100%; */
-aspect-ratio: 1/1;
-border-radius: 2rem;
-background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
-display: grid;
-place-items: center;
--webkit-box-shadow: 0 0 10px #4db5ff ;
+  /* width: 100%; */
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+  -webkit-box-shadow: 0 0 10px #4db5ff;
   box-shadow: 0 0 10px var(--color-primary);
 }
 
@@ -50,9 +55,9 @@ place-items: center;
 }
 
 .about__icon {
-color: var(--color-primary);
-font-size: 1.4rem;
-margin-bottom: 1rem;
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .about__card h5 {
@@ -68,54 +73,48 @@ margin-bottom: 1rem;
   color: var(--color-light);
 }
 
-
-
 /* MEDIA QUERIES (MEDIUM DEVICES) */
-@media screen and (max-width:1024px){
- .about__container {
-  grid-template-columns: 1fr;
-  gap: 0;
- }
- 
- .about__me-image {
-  width: 100%;
- }
+@media screen and (max-width: 1024px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 
- .about__me {
-  width: 50%;
-  /* height: 420px; */
-  margin: 2rem auto 4rem;
-  
- }
+  .about__me-image {
+    width: 100%;
+  }
 
- .about__content p {
-  margin: 1ren 0 1.5rem;
- }
- }
- /* MEDIA QUERIES (SMALL DEVICES) */
- @media screen and (max-width:600px){
-  
-   .about__me {
+  .about__me {
+    width: 50%;
+    /* height: 420px; */
+    margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+    margin: 1ren 0 1.5rem;
+  }
+}
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+  .about__me {
     width: 65%;
+  }
 
-
-   } 
-
-   .about_img {
+  .about_img {
     height: 100%;
-   }
+  }
 
-   .about__cards {
+  .about__cards {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
-   }
+  }
 
-   .about__content {
+  .about__content {
     text-align: center;
-   }
+  }
 
-   .about__content p {
+  .about__content p {
     margin: 1.5rem;
     text-align: center;
-   }
- }
+  }
+}
