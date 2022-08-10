@@ -29,8 +29,8 @@ const Contact = () => {
             );
           })}
         </div>
+        
         <form onSubmit={handleSubmit}>
-          
             <input
               type="text"
               name="name"
@@ -72,6 +72,7 @@ const Contact = () => {
               Send Message
             </button>
          
+        <a href="#header" className="scroll__up">Back To Top</a>
         </form>
       </div>
     </section>

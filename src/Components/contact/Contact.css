@@ -31,6 +31,15 @@
   box-shadow: 0 0 10px var(--color-primary);
 }
 
+.scroll__up {
+  position: absolute;
+  right:  5rem;
+  transform: rotate(90deg);
+  font-weight: 500;
+  font-size: 0.9;
+  color: var(--color-primary);
+}
+
 .contact__icon {
   color: var(--color-primary);
   font-size: 1.5rem;

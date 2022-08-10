@@ -1,11 +1,11 @@
 nav {
-  background: rgba(0, 0,0,0.3 );
+  background: var(--color-bg);
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem; 
   z-index: 2;
   position: fixed;
-  bottom: 1rem;
+  bottom: 4rem;
   left: 50%;
   transform: translate(-50%); 
   display: flex;
