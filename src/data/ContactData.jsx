@@ -11,7 +11,7 @@ const ContactData = [
   },
   {
     name: "Whatsapp",
-    address: +2348038852544,
+    address: "+2348038852544",
     icon: <AiOutlineWhatsApp/>,
     link: "https://wa.me/2348038852544"
     
