@@ -53,10 +53,18 @@ margin-top: 150px;
 @media screen and (max-width: 600px) {
   .portfolio__container {
     grid-template-columns: 1fr;
+  
     gap: 1.2rem;
+    width: var(--container-width-sm);
+
+  }
+
+  .project-img {
+    height: 250px;
+    width: 250px;
   }
 
   #portfolio {
-    margin-top: 650px;
+    margin-top: 700px;
   }
 }
