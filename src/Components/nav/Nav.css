@@ -13,7 +13,7 @@ nav {
   border: none;
   -webkit-box-shadow: 0 0 10px #4db5ff ;
   box-shadow: 0 0 10px var(--color-primary);
-  /* border-radius: 6px; */
+  border-radius: 6rem;
 }
 
 .nav-item-div {
