@@ -1,4 +1,5 @@
 import fitApp from "../Assets/everfit-app.png"
+import taskManager from "../Assets/index.png"
 import fortuneMart from "../Assets/fortune-mart.png"
 import calculatorApp from "../Assets/Math-Magician.png"
 import leaderboard from "../Assets/Leaderbord.png"
@@ -7,6 +8,13 @@ import lifestyle from "../Assets/LifestyleArticle.png"
 import bookstore from "../Assets/bookstore.png"
 
 const Projects = [
+  {
+    name: "Task Manager",
+    img: taskManager,
+    live: "https://incredible-daifuku-613ca3.netlify.app",
+    github: "https://github.com/fortuneonyeka/task-manager",
+    description:"This a task manager application built with React, React-redux, axios, reactstrap",
+  },
   {
     name: "fitness Heaven",
     img: fitApp,
